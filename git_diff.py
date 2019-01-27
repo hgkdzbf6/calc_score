@@ -1,4 +1,7 @@
 import difflib
+import sys
+sys.path.append('../config')
+from config import SerialConfig
 
 class MyDiff:
     def __init__(self):
